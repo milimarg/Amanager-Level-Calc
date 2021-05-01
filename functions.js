@@ -9,7 +9,7 @@ function calc() {
 	if(current < 1 || current > 100 || goal < 1 || goal > 100) return error(2);
 
 	// plus tard je ferais des for et tout mais là flemme les Array sont bien plus opti
-	let xps = [500,]
+	let xps = [500,600]
 
 	// xp actuel et xp requis
 	// -1 car les niveaux commencent à 1 et les indexs à 0
@@ -28,8 +28,8 @@ function calc() {
 	document.getElementById("currentXP").innerHTML = currentXP;
 	document.getElementById("requiredXP").innerHTML = goalXP;
 	document.getElementById("missingXP").innerHTML = requiredXP;
-	document.getElementById("minMSG").innerHTML = minMSG;
-	document.getElementById("maxMSG").innerHTML = maxMSG;
+	document.getElementById("minMSG").innerHTML = minMSG.toFixed(0);
+	document.getElementById("maxMSG").innerHTML = maxMSG.toFixed(0);
 
 	resultat(true)
 
