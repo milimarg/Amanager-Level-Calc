@@ -8,6 +8,6 @@ Cette calculatrice vous sert à calculer combien de messages il vous faut envoye
 
 ---
 
-Crée, développé et maintenu par [Cyanic76](https://github.com/Cyanic76) - [Amanager GitHub](https://github.com/Ana-gram/Amanager)
+Crée, développé et maintenu par [Cyanic76](https://github.com/Cyanic76), transféré à [Margana](https://github.com/Ana-gram) - [Amanager GitHub](https://github.com/Ana-gram/Amanager)
 
 *je sais que ça sert à rien mais ça occupe pendant le confinement*
